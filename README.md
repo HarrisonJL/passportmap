@@ -109,6 +109,9 @@ python3 scripts/mutation_check.py             # 59/59 mutations killed
 - **Fixed sources.** ESMA's file URLs are immutable in the contract, so if ESMA moves them reads fail closed (`UNVERIFIED`) and the contract is redeployed. More than 10 register rows for one LEI is `UNVERIFIED`, never a silent truncation.
 - **Validators read the register at slightly different moments.** If ESMA updates the files mid-check, validators disagree and the round rotates rather than recording a mixed reading.
 - **The live maps show six of the seven per-state verdicts** (`AUTHORISED`, `AUTHORISED_RESTRICTED`, `UNVERIFIED`, `NOT_AUTHORISED`, `WITHDRAWN`, `NOT_LISTED`). `WARNING_LISTED` is proven in the differential tests (a website on ESMA's warning list, 30 states) but wasn't run live.
+- **Availability is never traded for safety.** Anyone can pay for a fresh check, and the latest check wins. If a source is momentarily unreachable, that check records `UNVERIFIED` (or fails and records nothing), and consumers fail closed until the next good check. A griefer can make a good verdict temporarily unavailable, never a bad one look good, and the next check restores it.
+- **The register's date is its newest entry update, not its publication date.** `register_as_of` is ESMA's newest "last update" in the file. A quiet week with no entry changes can therefore read as `STALE_REGISTER` for a strict `max_register_age_days`: fail-closed, never fail-open.
+- **Prompt injection and ids.** As LicenceCheck: the LLM reads firm- and regulator-written text framed as untrusted data and can only withhold or restrict a grant. `firm_id`s are first-come, so read `get_firm` and pin the parameters you expect. `ListingGate` is owner-only and takes the owner's chosen firm and state, to show the gate.
 
 ## Repository layout
 
