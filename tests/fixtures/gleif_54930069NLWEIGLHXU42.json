@@ -1,0 +1,151 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "54930069NLWEIGLHXU42",
+  "attributes": {
+   "lei": "54930069NLWEIGLHXU42",
+   "entity": {
+    "legalName": {
+     "name": "OKX Europe Limited",
+     "language": "en"
+    },
+    "otherNames": [
+     {
+      "name": "OKCOIN EUROPE LTD",
+      "language": "en",
+      "type": "PREVIOUS_LEGAL_NAME"
+     }
+    ],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "en",
+     "addressLines": [
+      "Piazzetta Business Plaza Office Number 4 Floor 2"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "TRIQ GHAR IL-LEMBI",
+     "region": "MT-56",
+     "country": "MT",
+     "postalCode": "SLM 1562"
+    },
+    "headquartersAddress": {
+     "language": "en",
+     "addressLines": [
+      "Piazzetta Business Plaza Office Number 4 Floor 2"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "TRIQ GHAR IL-LEMBI",
+     "region": "MT-56",
+     "country": "MT",
+     "postalCode": "SLM 1562"
+    },
+    "registeredAt": {
+     "id": "RA000443",
+     "other": null
+    },
+    "registeredAs": "C 88193",
+    "jurisdiction": "MT",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "V89C",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2018-09-07T00:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": [
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "SUPPORTING_DOCUMENTS",
+        "effectiveDate": "2025-10-31T00:00:00Z",
+        "recordedDate": "2026-02-12T11:46:59Z",
+        "type": "CHANGE_LEGAL_NAME",
+        "status": "COMPLETED"
+       }
+      ]
+     }
+    ]
+   },
+   "registration": {
+    "initialRegistrationDate": "2022-10-26T21:29:00Z",
+    "lastUpdateDate": "2026-09-09T06:27:53Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-11-07T21:56:58Z",
+    "managingLou": "529900T8BM49AURSDO55",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000443",
+     "other": null
+    },
+    "validatedAs": "C 88193",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": [
+    "OKXE"
+   ],
+   "ocid": null,
+   "qcc": "QMTKP16K20",
+   "gem": null,
+   "spglobal": [
+    "1809611259"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42/ultimate-parent-reporting-exception"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/54930069NLWEIGLHXU42"
+  }
+ }
+}

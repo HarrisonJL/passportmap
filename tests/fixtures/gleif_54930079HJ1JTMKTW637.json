@@ -1,0 +1,137 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "54930079HJ1JTMKTW637",
+  "attributes": {
+   "lei": "54930079HJ1JTMKTW637",
+   "entity": {
+    "legalName": {
+     "name": "Bankhaus Scheich Wertpapierspezialist AG",
+     "language": "de"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "de",
+     "addressLines": [
+      "Ro\u00dfmarkt 21"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Frankfurt am Main",
+     "region": "DE-HE",
+     "country": "DE",
+     "postalCode": "60311"
+    },
+    "headquartersAddress": {
+     "language": "de",
+     "addressLines": [
+      "Ro\u00dfmarkt 21"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Frankfurt am Main",
+     "region": "DE-HE",
+     "country": "DE",
+     "postalCode": "60311"
+    },
+    "registeredAt": {
+     "id": "RA000242",
+     "other": null
+    },
+    "registeredAs": "HRB 103196",
+    "jurisdiction": "DE",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "6QQB",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2015-08-13T22:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": []
+   },
+   "registration": {
+    "initialRegistrationDate": "2014-02-13T00:53:52Z",
+    "lastUpdateDate": "2026-09-21T07:17:46Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-11-10T13:19:51Z",
+    "managingLou": "5299000J2N45DDNE4Y28",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000242",
+     "other": null
+    },
+    "validatedAs": "HRB 103196",
+    "otherValidationAuthorities": []
+   },
+   "bic": [
+    "SCTNDEF1XXX"
+   ],
+   "mic": null,
+   "ocid": "de/M1201_HRB103196",
+   "qcc": "QDER7ABE03",
+   "gem": null,
+   "spglobal": [
+    "320020396"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637/ultimate-parent-reporting-exception"
+    }
+   },
+   "isins": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637/isins"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/54930079HJ1JTMKTW637"
+  }
+ }
+}

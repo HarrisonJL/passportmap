@@ -1,0 +1,3561 @@
+[
+ {
+  "step": "register",
+  "firm_id": "bybit-custody",
+  "tx": "0xd242bfe7fa4cc44761a25c3a5b354cf19f5cb290485b8757d5503d84e540e4ca",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "okx-trading",
+  "tx": "0x4e186ad12a51e5e2140ab3fea3cd2b50f3219880e5a5aec0a06d7dd5ff450df8",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "hpb-custody",
+  "tx": "0xf98f039402bc2f4c6782a72c0f63376a6299e7300f6ff6b934d47dfba9dc67fb",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "amina-custody",
+  "tx": "0x1d6eda96421da8a891b1c0120060dce57f256f316f1a939f9c950b0cccc9e9fe",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "etoro-custody",
+  "tx": "0x80273084447f2a7a16f1d50901372967c3014217d228d21b5a2d2c2e5bbcafcc",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "decubate-placing",
+  "tx": "0x9a7714426a2cb863a159c8ff7ad2e828bcec9f6af03df0c90b29a3a589aeaf78",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "bitpanda-old",
+  "tx": "0x02a792fa7b2e56556abb3b86a0d776ec95d64f360e124eac417806809195ce1b",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "tesco",
+  "tx": "0x008142e10fa20514935a94f31d9eef6ae075f78a3bc4f3c9ce1d574f82c58b2d",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "bybit-lookalike",
+  "tx": "0x56ba759287352cef0f482193aac3c12ef0cc3bd4b3576f4c95f735e03917dca0",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ]
+ },
+ {
+  "step": "register",
+  "firm_id": "bybit-unchecked",
+  "tx": "0x4f20f43e23036afa7b235119916242403410750fddfd7b60499cd35da85b443d",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE"
+  ]
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "bybit-custody",
+  "tx": "0xee8c7be6114efcb0a156ca3786707bc6c86bf0a04c20eab8d1997207c25aa339",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:53:51.224604+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "Bybit EU GmbH",
+   "entries_digest": "ef591c7ddff2458b203d4c2831f6d9556ed15d42f8b42aefd100b7558466ae89",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-05-28",
+      "authority": "Austrian Financial Market Authority (FMA)",
+      "comment": "",
+      "commercial_name": "Bybit",
+      "countries": [
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "ES",
+       "FI",
+       "FR",
+       "GR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "NL",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES",
+       "c": "YES"
+      },
+      "end_date": "",
+      "home_state": "AT",
+      "name": "Bybit EU GmbH",
+      "row": 2,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | f. placing of crypto-assets | j. providing transfer services for crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "bybit.eu"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "Bybit EU GmbH",
+     "lei": "5299005V5GBSN2A4C303",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "5299005V5GBSN2A4C303",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "ac",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "bybit.eu",
+    "website_listed": true
+   },
+   "firm_id": "bybit-custody",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 2,
+     "services": {
+      "a": true,
+      "c": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 0,
+   "states": {
+    "AT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BG": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CY": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "EE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "ES": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "GR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IS": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LV": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "MT": {
+     "reasons": [
+      "service_not_covered:a",
+      "service_not_covered:c"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "RO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "okx-trading",
+  "tx": "0xe54336d055938226dfc3cc266aadddc4e7aeffde82c4eacee5e610a1eb22ac96",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:54:18.312644+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "OKX Europe Limited",
+   "entries_digest": "436dc14fb3eef72d1174abb447cfe7023fda81a434f5a8783e578c4f4fffbcab",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-01-27",
+      "authority": "Malta Financial Services Authority (MFSA)",
+      "comment": "",
+      "commercial_name": "OKX",
+      "countries": [
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "GR",
+       "ES",
+       "FI",
+       "FR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "NL",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "b": "YES"
+      },
+      "end_date": "",
+      "home_state": "MT",
+      "name": "OKX Europe Limited",
+      "row": 294,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients |b. operation of a trading platform for crypto-assets | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets |e. execution of orders for crypto-assets on behalf of clients |f. placing of crypto-assets |g. reception and transmission of orders for crypto-assets on behalf of clients | i. providing portfolio management on crypto-assets | j. providing transfer services for crypto-assets on behalf of clients.",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "okx.com"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "OKX Europe Limited",
+     "lei": "54930069NLWEIGLHXU42",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "54930069NLWEIGLHXU42",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "b",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "okx-trading",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 294,
+     "services": {
+      "b": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 1,
+   "states": {
+    "AT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BG": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CY": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "EE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "ES": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "GR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IS": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LV": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "MT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "RO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "hpb-custody",
+  "tx": "0xb1b75a99a8d004760b18b9928a35d2e1139d2a92ab96e310a74d4330b64650c5",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:54:37.631692+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "HRVATSKA POŠTANSKA BANKA, dioničko društvo",
+   "entries_digest": "c5e1282a6b511b9589556467adcdf3bcafe649f2b73fef256ae73f7febf90195",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2026-06-16",
+      "authority": "Croatian National Bank",
+      "comment": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
+      "commercial_name": "HPB d.d.",
+      "countries": [
+       "HR"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES"
+      },
+      "end_date": "",
+      "home_state": "HR",
+      "name": "Hrvatska poštanska banka d.d.",
+      "row": 230,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "hpb.hr"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "HRVATSKA POŠTANSKA BANKA, dioničko društvo",
+     "lei": "529900D5G4V6THXC5P79",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "529900D5G4V6THXC5P79",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "hpb-custody",
+   "llm": [
+    {
+     "evidence": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
+     "restricts": true,
+     "row": 230,
+     "services": {
+      "a": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
+   "snapshot_id": 2,
+   "states": {
+    "AT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "BE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "BG": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "CY": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "DE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "DK": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "EE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "ES": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "FI": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "FR": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "GR": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "HR": {
+     "reasons": [
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "AUTHORISED_RESTRICTED"
+    },
+    "HU": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "IE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "IS": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "IT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LI": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LU": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LV": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "MT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NL": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NO": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "PL": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "PT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "RO": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "SE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "SI": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "SK": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "amina-custody",
+  "tx": "0x3bae61a35af2d515d2b0fcb161758de5ce08706f367a92eaaa23c84305a21d7a",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:57:25.666147+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "AMINA (Austria) AG",
+   "entries_digest": "2538e77952f17ac1f81f28596059cdd6e74e3e9a7d373431371ef270552f7927",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-10-29",
+      "authority": "Austrian Financial Market Authority (FMA)",
+      "comment": "",
+      "commercial_name": "AMINA EU",
+      "countries": [
+       "AT",
+       "DK",
+       "DE",
+       "EE",
+       "FR",
+       "IE",
+       "IT",
+       "LU",
+       "MT",
+       "NL",
+       "PL",
+       "PT",
+       "ES",
+       "LI",
+       "BE",
+       "BG",
+       "FI",
+       "GR",
+       "HR",
+       "LV",
+       "LT",
+       "CY",
+       "RO",
+       "SE",
+       "SK",
+       "CZ",
+       "HU",
+       "IS",
+       "NO"
+      ],
+      "countries_unrecognised": [
+       "SL"
+      ],
+      "det": {
+       "a": "YES"
+      },
+      "end_date": "",
+      "home_state": "AT",
+      "name": "AMINA (Austria) AG",
+      "row": 4,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | i. providing portfolio management on crypto-assets | j. providing transfer services for crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "eu.aminagroup.com"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "AMINA (Austria) AG",
+     "lei": "5299005I4LYIFW7GKB54",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "5299005I4LYIFW7GKB54",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "amina-custody",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 4,
+     "services": {
+      "a": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 3,
+   "states": {
+    "AT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BG": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CY": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "EE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "ES": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "GR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IS": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LV": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "MT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "RO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SI": {
+     "reasons": [
+      "service_ambiguous:a"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "etoro-custody",
+  "tx": "0xa11537069d614a4604fb93386b94a2687d5514db6b2890186e77a51dd5493dae",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:57:44.566791+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "ETORO (EUROPE) LIMITED",
+   "entries_digest": "caa89919515290d575d17e90e0b0d225060af15d3cafad2b35c9309134b5a12c",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-01-16",
+      "authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "comment": "",
+      "commercial_name": "e Toro",
+      "countries": [
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "GR",
+       "ES",
+       "FI",
+       "FR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "MT",
+       "NL",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES"
+      },
+      "end_date": "",
+      "home_state": "CY",
+      "name": "eToro (Europe) Ltd",
+      "row": 19,
+      "services_text": "providing custody and administration of crypto-assets on behalf of clients |exchange of crypto-assets for funds |execution of orders for crypto-assets on behalf of clients | reception and transmission of orders for crypto-assets on behalf of clients | providing advice on crypto-assets |providing portfolio management on crypto-assets | providing transfer services for crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "etoro.com"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "ETORO (EUROPE) LIMITED",
+     "lei": "213800GIFQMSV7HROS23",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "213800GIFQMSV7HROS23",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "etoro-custody",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 19,
+     "services": {
+      "a": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 4,
+   "states": {
+    "AT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BG": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CY": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "EE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "ES": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "GR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IS": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LV": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "MT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "RO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "decubate-placing",
+  "tx": "0x13b1487d3b1a1a2ffb13bfc451781b98cf84d1e453b0e90185f49842a0f7f585",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:58:03.816455+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "Decubate B.V.",
+   "entries_digest": "4b53078606cac803d77239c3e2f17927a370e9d85f641582f1b449cd39ac35c5",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-07-31",
+      "authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "comment": "Voluntary request to revoke authorisation by the entity",
+      "commercial_name": "Decubate B.V.",
+      "countries": [
+       "NL",
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "GR",
+       "ES",
+       "FI",
+       "FR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "MT",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "f": "YES"
+      },
+      "end_date": "26/03/2026",
+      "home_state": "NL",
+      "name": "Decubate B.V.",
+      "row": 329,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients | e. execution of orders for crypto-assets on behalf of clients | f. placing of crypto-assets",
+      "status": "WITHDRAWN",
+      "website_hosts": [
+       "decubate.com",
+       "platform.decubate.com"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "Decubate B.V.",
+     "lei": "894500ZVOL3A9LO8LN34",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "894500ZVOL3A9LO8LN34",
+    "llm_needed": false,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "f",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "decubate-placing",
+   "llm": [],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 5,
+   "states": {
+    "AT": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "BE": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "BG": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "CY": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "CZ": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "DE": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "DK": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "EE": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "ES": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "FI": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "FR": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "GR": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "HR": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "HU": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "IE": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "IS": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "IT": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "LI": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "LT": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "LU": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "LV": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "MT": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "NL": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "NO": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "PL": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "PT": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "RO": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "SE": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "SI": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    },
+    "SK": {
+     "reasons": [
+      "authorisation_withdrawn"
+     ],
+     "verdict": "WITHDRAWN"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "bitpanda-old",
+  "tx": "0xcc842e6bea789e7d2e9cfe53cbafff73b42ed0225f25a353a8610fd0a4f467e7",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:58:17.204791+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "Bitpanda GmbH",
+   "entries_digest": "d4fa28619a4fce331895d5193ecc74b4d1804b958d903fa8feaebc7e0161a2e5",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-04-09",
+      "authority": "Austrian Financial Market Authority (FMA)",
+      "comment": "",
+      "commercial_name": "Bitpanda",
+      "countries": [
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "ES",
+       "FI",
+       "FR",
+       "GR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "MT",
+       "NL",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES"
+      },
+      "end_date": "",
+      "home_state": "AT",
+      "name": "Bitpanda GmbH",
+      "row": 1,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | e. execution of orders for crypto-assets on behalf of clients | f. placing of crypto-assets | g. reception and transmission of orders for crypto-assets on behalf of clients | j. providing transfer services for crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "bitpanda.com"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "INACTIVE",
+     "http": 200,
+     "legal_name": "Bitpanda GmbH",
+     "lei": "5493007WZ7IFULIL8G21",
+     "registration_status": "RETIRED",
+     "successor_lei": "98450086582EV2FFC109"
+    },
+    "lei": "5493007WZ7IFULIL8G21",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "bitpanda-old",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 1,
+     "services": {
+      "a": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 6,
+   "states": {
+    "AT": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "BE": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "BG": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "CY": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "CZ": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "DE": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "DK": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "EE": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "ES": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "FI": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "FR": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "GR": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "HR": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "HU": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "IE": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "IS": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "IT": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LI": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LT": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LU": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LV": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "MT": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "NL": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "NO": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "PL": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "PT": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "RO": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SE": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SI": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SK": {
+     "reasons": [
+      "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+     ],
+     "verdict": "UNVERIFIED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "tesco",
+  "tx": "0x373f4f716b1aa83418bc28a737aaa91cc9b3bc79ced6235304da5dc3210fa542",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:58:36.339371+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "TESCO PLC",
+   "entries_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [],
+    "entries_matched": 0,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "TESCO PLC",
+     "lei": "2138002P5RNKC5W2JZ46",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "2138002P5RNKC5W2JZ46",
+    "llm_needed": false,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "tesco",
+   "llm": [],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 7,
+   "states": {
+    "AT": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "BE": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "BG": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "CY": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "CZ": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "DE": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "DK": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "EE": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "ES": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "FI": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "FR": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "GR": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "HR": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "HU": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "IE": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "IS": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "IT": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "LI": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "LT": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "LU": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "LV": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "MT": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "NL": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "NO": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "PL": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "PT": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "RO": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "SE": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "SI": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    },
+    "SK": {
+     "reasons": [
+      "lei_not_in_register"
+     ],
+     "verdict": "NOT_LISTED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "snapshot",
+  "firm_id": "bybit-lookalike",
+  "tx": "0xc25e7415d70c52d6f99efe2a1765b3c9e3b325ef5047c3ed89d02c353732c06b",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:58:44.302516+00:00",
+   "diff": {
+    "baseline": true
+   },
+   "entity_name": "Bybit EU GmbH",
+   "entries_digest": "ef591c7ddff2458b203d4c2831f6d9556ed15d42f8b42aefd100b7558466ae89",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-05-28",
+      "authority": "Austrian Financial Market Authority (FMA)",
+      "comment": "",
+      "commercial_name": "Bybit",
+      "countries": [
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "ES",
+       "FI",
+       "FR",
+       "GR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "NL",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES"
+      },
+      "end_date": "",
+      "home_state": "AT",
+      "name": "Bybit EU GmbH",
+      "row": 2,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | f. placing of crypto-assets | j. providing transfer services for crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "bybit.eu"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "Bybit EU GmbH",
+     "lei": "5299005V5GBSN2A4C303",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "5299005V5GBSN2A4C303",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "fakebybit.eu",
+    "website_listed": false
+   },
+   "firm_id": "bybit-lookalike",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 2,
+     "services": {
+      "a": true
+     }
+    }
+   ],
+   "previous_id": null,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 8,
+   "states": {
+    "AT": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "BE": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "BG": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "CY": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "CZ": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "DE": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "DK": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "EE": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "ES": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "FI": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "FR": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "GR": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "HR": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "HU": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "IE": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "IS": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "IT": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LI": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LT": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LU": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "LV": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "MT": {
+     "reasons": [
+      "service_not_covered:a",
+      "website_not_in_register"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NL": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "NO": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "PL": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "PT": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "RO": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SE": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SI": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    },
+    "SK": {
+     "reasons": [
+      "website_not_in_register"
+     ],
+     "verdict": "UNVERIFIED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "resnap",
+  "firm_id": "bybit-custody",
+  "tx": "0x5111df6296a361898d1e57d751dfd02df9c3e1ea80af7dcd2403555182446c9a",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T13:59:02.817090+00:00",
+   "diff": {
+    "authorised_count": [
+     29,
+     29
+    ],
+    "baseline": false,
+    "changed": {},
+    "gained": [],
+    "lost": [],
+    "register_as_of": [
+     "2026-09-29",
+     "2026-09-29"
+    ],
+    "register_entries_changed": false
+   },
+   "entity_name": "Bybit EU GmbH",
+   "entries_digest": "ef591c7ddff2458b203d4c2831f6d9556ed15d42f8b42aefd100b7558466ae89",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2025-05-28",
+      "authority": "Austrian Financial Market Authority (FMA)",
+      "comment": "",
+      "commercial_name": "Bybit",
+      "countries": [
+       "AT",
+       "BE",
+       "BG",
+       "CY",
+       "CZ",
+       "DE",
+       "DK",
+       "EE",
+       "ES",
+       "FI",
+       "FR",
+       "GR",
+       "HR",
+       "HU",
+       "IE",
+       "IS",
+       "IT",
+       "LI",
+       "LT",
+       "LU",
+       "LV",
+       "NL",
+       "NO",
+       "PL",
+       "PT",
+       "RO",
+       "SE",
+       "SI",
+       "SK"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES",
+       "c": "YES"
+      },
+      "end_date": "",
+      "home_state": "AT",
+      "name": "Bybit EU GmbH",
+      "row": 2,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | f. placing of crypto-assets | j. providing transfer services for crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "bybit.eu"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "Bybit EU GmbH",
+     "lei": "5299005V5GBSN2A4C303",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "5299005V5GBSN2A4C303",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "ac",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "bybit.eu",
+    "website_listed": true
+   },
+   "firm_id": "bybit-custody",
+   "llm": [
+    {
+     "evidence": null,
+     "restricts": false,
+     "row": 2,
+     "services": {
+      "a": true,
+      "c": true
+     }
+    }
+   ],
+   "previous_id": 0,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "",
+   "snapshot_id": 9,
+   "states": {
+    "AT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "BG": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CY": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "DK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "EE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "ES": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "FR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "GR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HR": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "HU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IS": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "IT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LU": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "LV": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "MT": {
+     "reasons": [
+      "service_not_covered:a",
+      "service_not_covered:c"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "NO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PL": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "PT": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "RO": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SE": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SI": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    },
+    "SK": {
+     "reasons": [],
+     "verdict": "AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "resnap",
+  "firm_id": "hpb-custody",
+  "tx": "0x53d7df8587ca36397ee01c745aece8612f68db796be0ba70f18a6819b3c5e3f4",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "snapshot": {
+   "checked_at": "2026-10-05T14:24:57.617271+00:00",
+   "diff": {
+    "authorised_count": [
+     0,
+     0
+    ],
+    "baseline": false,
+    "changed": {},
+    "gained": [],
+    "lost": [],
+    "register_as_of": [
+     "2026-09-29",
+     "2026-09-29"
+    ],
+    "register_entries_changed": false
+   },
+   "entity_name": "HRVATSKA POŠTANSKA BANKA, dioničko društvo",
+   "entries_digest": "c5e1282a6b511b9589556467adcdf3bcafe649f2b73fef256ae73f7febf90195",
+   "facts": {
+    "as_of": "2026-10-05",
+    "entries": [
+     {
+      "authorised_on": "2026-06-16",
+      "authority": "Croatian National Bank",
+      "comment": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
+      "commercial_name": "HPB d.d.",
+      "countries": [
+       "HR"
+      ],
+      "countries_unrecognised": [],
+      "det": {
+       "a": "YES"
+      },
+      "end_date": "",
+      "home_state": "HR",
+      "name": "Hrvatska poštanska banka d.d.",
+      "row": 230,
+      "services_text": "a. providing custody and administration of crypto-assets on behalf of clients",
+      "status": "ACTIVE",
+      "website_hosts": [
+       "hpb.hr"
+      ]
+     }
+    ],
+    "entries_matched": 1,
+    "gleif": {
+     "entity_status": "ACTIVE",
+     "http": 200,
+     "legal_name": "HRVATSKA POŠTANSKA BANKA, dioničko društvo",
+     "lei": "529900D5G4V6THXC5P79",
+     "registration_status": "ISSUED",
+     "successor_lei": ""
+    },
+    "lei": "529900D5G4V6THXC5P79",
+    "llm_needed": true,
+    "member_state": "ALL",
+    "register_as_of": "2026-09-29",
+    "register_http": 200,
+    "register_ok": true,
+    "register_rows": 364,
+    "services": "a",
+    "warning_list_http": 200,
+    "warning_list_ok": true,
+    "warning_list_rows": 173,
+    "warnings": [],
+    "website": "",
+    "website_listed": null
+   },
+   "firm_id": "hpb-custody",
+   "llm": [
+    {
+     "evidence": "limited solely to a Passive Digital Assets (PDA) AIF",
+     "restricts": true,
+     "row": 230,
+     "services": {
+      "a": true
+     }
+    }
+   ],
+   "previous_id": 10,
+   "register_as_of": "2026-09-29",
+   "restriction_evidence": "limited solely to a Passive Digital Assets (PDA) AIF",
+   "snapshot_id": 11,
+   "states": {
+    "AT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "BE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "BG": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "CY": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "CZ": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "DE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "DK": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "EE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "ES": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "FI": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "FR": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "GR": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "HR": {
+     "reasons": [
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "AUTHORISED_RESTRICTED"
+    },
+    "HU": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "IE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "IS": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "IT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LI": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LU": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "LV": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "MT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NL": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "NO": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "PL": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "PT": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "RO": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "SE": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "SI": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    },
+    "SK": {
+     "reasons": [
+      "service_not_covered:a",
+      "regulator_comment_restricts:row_230"
+     ],
+     "verdict": "NOT_AUTHORISED"
+    }
+   },
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b"
+  }
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "bybit-custody",
+   "ETH",
+   "DE"
+  ],
+  "tx": "0x16da5f4caa654bf59d074cd54cc49d340b559167bbf5f6fe6b04ba498ba8ddd6",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": ""
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "etoro-custody",
+   "SOL",
+   "EL"
+  ],
+  "tx": "0x767fbb9998073ddb1ab67eefb21daf24436552ee3aeb4d39521d1df8a71ec082",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": ""
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "bybit-custody",
+   "ETH",
+   "MT"
+  ],
+  "tx": "0x96cdfdc0b3d6fe77e88a64f41855833aa54497bcbda4d9e55625916dcb923a52",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "listing ETH via bybit-custody in MT refused: PassportMap says VERDICT_NOT_AUTHORISED"
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "hpb-custody",
+   "ETH",
+   "HR"
+  ],
+  "tx": "0x884b95de5d506b419856489b0aacbdb378981d544393a447e53239e12c59af5f",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "listing ETH via hpb-custody in HR refused: PassportMap says VERDICT_AUTHORISED_RESTRICTED"
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "hpb-custody",
+   "ETH",
+   "DE"
+  ],
+  "tx": "0x00f2a9b7e493c6d337ff21fcc38c5d4550d10165b10b18c35f2889a6a9d3dc58",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "listing ETH via hpb-custody in DE refused: PassportMap says VERDICT_NOT_AUTHORISED"
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "amina-custody",
+   "BTC",
+   "SI"
+  ],
+  "tx": "0x6158107896a763fc74de76b1a702f851e2c26bd681337df79e094c33fcd12481",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "listing BTC via amina-custody in SI refused: PassportMap says VERDICT_UNVERIFIED"
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "decubate-placing",
+   "ETH",
+   "NL"
+  ],
+  "tx": "0x6e6e7768b361a5a0b53cc2017a9d540910e85c35132782d5bbe11e1788e653bc",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "listing ETH via decubate-placing in NL refused: PassportMap says VERDICT_WITHDRAWN"
+ },
+ {
+  "step": "gate",
+  "call": "list_asset",
+  "args": [
+   "bybit-unchecked",
+   "ETH",
+   "DE"
+  ],
+  "tx": "0x32a9b139506df9e83f93209fee166efd0a86439b5bdd2311a2011f2fb3d5c0b0",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "listing ETH via bybit-unchecked in DE refused: PassportMap says NO_SNAPSHOT"
+ },
+ {
+  "step": "gate",
+  "call": "settle",
+  "args": [
+   "bybit-custody",
+   "ETH",
+   "DE",
+   2500
+  ],
+  "tx": "0x46a40f1763001e8275b0cec0591847a5ba224073b610bc902909c404a9f16b00",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": ""
+ },
+ {
+  "step": "gate",
+  "call": "settle",
+  "args": [
+   "bybit-custody",
+   "ETH",
+   "FR",
+   100
+  ],
+  "tx": "0x35b584f95215b761878cf266f5f87af58a37a6e2c9388679e9cc2a0d728c3609",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "revert": "asset not listed"
+ },
+ {
+  "step": "read",
+  "firm_id": "bybit-custody",
+  "map_counts": {
+   "AUTHORISED": 29,
+   "NOT_AUTHORISED": 1
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:59:02.817090+00:00",
+   "covered": true,
+   "firm_id": "bybit-custody",
+   "reason": "COVERED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 9,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:59:02.817090+00:00",
+   "covered": false,
+   "firm_id": "bybit-custody",
+   "reason": "STALE_REGISTER",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 9,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "okx-trading",
+  "map_counts": {
+   "AUTHORISED": 30
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:54:18.312644+00:00",
+   "covered": true,
+   "firm_id": "okx-trading",
+   "reason": "COVERED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 1,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:54:18.312644+00:00",
+   "covered": false,
+   "firm_id": "okx-trading",
+   "reason": "STALE_REGISTER",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 1,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "hpb-custody",
+  "map_counts": {
+   "NOT_AUTHORISED": 29,
+   "AUTHORISED_RESTRICTED": 1
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T14:24:57.617271+00:00",
+   "covered": false,
+   "firm_id": "hpb-custody",
+   "reason": "VERDICT_NOT_AUTHORISED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 11,
+   "state": "DE",
+   "verdict": "NOT_AUTHORISED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T14:24:57.617271+00:00",
+   "covered": false,
+   "firm_id": "hpb-custody",
+   "reason": "VERDICT_NOT_AUTHORISED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 11,
+   "state": "DE",
+   "verdict": "NOT_AUTHORISED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "amina-custody",
+  "map_counts": {
+   "AUTHORISED": 29,
+   "UNVERIFIED": 1
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:57:25.666147+00:00",
+   "covered": true,
+   "firm_id": "amina-custody",
+   "reason": "COVERED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 3,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:57:25.666147+00:00",
+   "covered": false,
+   "firm_id": "amina-custody",
+   "reason": "STALE_REGISTER",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 3,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "etoro-custody",
+  "map_counts": {
+   "AUTHORISED": 30
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:57:44.566791+00:00",
+   "covered": true,
+   "firm_id": "etoro-custody",
+   "reason": "COVERED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 4,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:57:44.566791+00:00",
+   "covered": false,
+   "firm_id": "etoro-custody",
+   "reason": "STALE_REGISTER",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 4,
+   "state": "DE",
+   "verdict": "AUTHORISED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "decubate-placing",
+  "map_counts": {
+   "WITHDRAWN": 30
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:58:03.816455+00:00",
+   "covered": false,
+   "firm_id": "decubate-placing",
+   "reason": "VERDICT_WITHDRAWN",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 5,
+   "state": "DE",
+   "verdict": "WITHDRAWN"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:58:03.816455+00:00",
+   "covered": false,
+   "firm_id": "decubate-placing",
+   "reason": "VERDICT_WITHDRAWN",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 5,
+   "state": "DE",
+   "verdict": "WITHDRAWN"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "bitpanda-old",
+  "map_counts": {
+   "UNVERIFIED": 30
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:58:17.204791+00:00",
+   "covered": false,
+   "firm_id": "bitpanda-old",
+   "reason": "VERDICT_UNVERIFIED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 6,
+   "state": "DE",
+   "verdict": "UNVERIFIED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:58:17.204791+00:00",
+   "covered": false,
+   "firm_id": "bitpanda-old",
+   "reason": "VERDICT_UNVERIFIED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 6,
+   "state": "DE",
+   "verdict": "UNVERIFIED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "tesco",
+  "map_counts": {
+   "NOT_LISTED": 30
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:58:36.339371+00:00",
+   "covered": false,
+   "firm_id": "tesco",
+   "reason": "VERDICT_NOT_LISTED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 7,
+   "state": "DE",
+   "verdict": "NOT_LISTED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:58:36.339371+00:00",
+   "covered": false,
+   "firm_id": "tesco",
+   "reason": "VERDICT_NOT_LISTED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 7,
+   "state": "DE",
+   "verdict": "NOT_LISTED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "bybit-lookalike",
+  "map_counts": {
+   "UNVERIFIED": 29,
+   "NOT_AUTHORISED": 1
+  },
+  "coverage_DE": {
+   "checked_at": "2026-10-05T13:58:44.302516+00:00",
+   "covered": false,
+   "firm_id": "bybit-lookalike",
+   "reason": "VERDICT_UNVERIFIED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 8,
+   "state": "DE",
+   "verdict": "UNVERIFIED"
+  },
+  "coverage_DE_register_1_day": {
+   "checked_at": "2026-10-05T13:58:44.302516+00:00",
+   "covered": false,
+   "firm_id": "bybit-lookalike",
+   "reason": "VERDICT_UNVERIFIED",
+   "register_age_days": 6,
+   "register_as_of": "2026-09-29",
+   "snapshot_id": 8,
+   "state": "DE",
+   "verdict": "UNVERIFIED"
+  }
+ },
+ {
+  "step": "read",
+  "firm_id": "bybit-unchecked",
+  "map_counts": {},
+  "coverage_DE": {
+   "covered": false,
+   "firm_id": "bybit-unchecked",
+   "reason": "NO_SNAPSHOT",
+   "state": "DE"
+  },
+  "coverage_DE_register_1_day": {
+   "covered": false,
+   "firm_id": "bybit-unchecked",
+   "reason": "NO_SNAPSHOT",
+   "state": "DE"
+  }
+ },
+ {
+  "step": "history",
+  "firm_id": "bybit-custody",
+  "ids": [
+   9,
+   0
+  ],
+  "previous": [
+   0,
+   null
+  ]
+ }
+]

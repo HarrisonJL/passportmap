@@ -1,0 +1,163 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "5493007WZ7IFULIL8G21",
+  "attributes": {
+   "lei": "5493007WZ7IFULIL8G21",
+   "entity": {
+    "legalName": {
+     "name": "Bitpanda GmbH",
+     "language": "de"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "en",
+     "addressLines": [
+      "Jakov-Lind-Strasse 2",
+      "Campus 2"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Vienna",
+     "region": "AT-9",
+     "country": "AT",
+     "postalCode": "1020"
+    },
+    "headquartersAddress": {
+     "language": "en",
+     "addressLines": [
+      "Jakov-Lind-Strasse 2",
+      "Campus 2"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Vienna",
+     "region": "AT-9",
+     "country": "AT",
+     "postalCode": "1020"
+    },
+    "registeredAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "registeredAs": "423018k",
+    "jurisdiction": "AT",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "AXSB",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "INACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": "98450086582EV2FFC109",
+     "name": null
+    },
+    "successorEntities": [
+     {
+      "lei": "98450086582EV2FFC109"
+     }
+    ],
+    "creationDate": "2020-03-26T00:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": [
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "SUPPORTING_DOCUMENTS",
+        "effectiveDate": "2026-02-20T00:00:00Z",
+        "recordedDate": "2026-06-22T11:49:02Z",
+        "type": "MERGERS_AND_ACQUISITIONS",
+        "status": "COMPLETED",
+        "affectedFields": [
+         {
+          "value": "98450086582EV2FFC109",
+          "xpath": "/lei:LEIData/lei:LEIRecords/lei:LEIRecord/lei:Entity/lei:SuccessorEntity/lei:SuccessorLEI"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "registration": {
+    "initialRegistrationDate": "2020-05-27T14:30:00Z",
+    "lastUpdateDate": "2026-06-24T17:40:25Z",
+    "status": "RETIRED",
+    "nextRenewalDate": "2025-04-18T07:44:01Z",
+    "managingLou": "5493001KJTIIGC8Y1R12",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "validatedAs": "423018k",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": null,
+   "ocid": null,
+   "qcc": "QAT2A9KKPD",
+   "gem": null,
+   "spglobal": null,
+   "conformityFlag": "NOT_APPLICABLE"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/ultimate-parent-reporting-exception"
+    }
+   },
+   "successor-entity": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/successor-entity"
+    }
+   },
+   "successor-entities": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21/successor-entities"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/5493007WZ7IFULIL8G21"
+  }
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "98450086582EV2FFC109",
+  "attributes": {
+   "lei": "98450086582EV2FFC109",
+   "entity": {
+    "legalName": {
+     "name": "Bitpanda GmbH",
+     "language": "de"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "de",
+     "addressLines": [
+      "Stella-Klein-L\u00f6w-Weg 17"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Wien",
+     "region": "AT-9",
+     "country": "AT",
+     "postalCode": "1020"
+    },
+    "headquartersAddress": {
+     "language": "de",
+     "addressLines": [
+      "Stella-Klein-L\u00f6w-Weg 17"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Wien",
+     "region": "AT-9",
+     "country": "AT",
+     "postalCode": "1020"
+    },
+    "registeredAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "registeredAs": "569240v",
+    "jurisdiction": "AT",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "AXSB",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2021-11-12T00:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": []
+   },
+   "registration": {
+    "initialRegistrationDate": "2025-04-28T16:23:37Z",
+    "lastUpdateDate": "2026-03-16T11:53:08Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-04-28T16:23:39Z",
+    "managingLou": "529900T8BM49AURSDO55",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "validatedAs": "569240v",
+    "otherValidationAuthorities": []
+   },
+   "bic": [
+    "BIPGATWWXXX"
+   ],
+   "mic": null,
+   "ocid": null,
+   "qcc": "QATSQX5N25",
+   "gem": null,
+   "spglobal": [
+    "608720981"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109/ultimate-parent-reporting-exception"
+    }
+   },
+   "isins": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109/isins"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/98450086582EV2FFC109"
+  }
+ }
+}

@@ -1,0 +1,403 @@
+two-reader rule: LLM alone grants
+---
+                    service_state = _agree(e["det"][letter], "YES" if r["services"][letter] else "NO")
+---
+                    service_state = "YES" if r["services"][letter] else e["det"][letter]
+===
+two-reader rule: det alone grants
+---
+                    service_state = _agree(e["det"][letter], "YES" if r["services"][letter] else "NO")
+---
+                    service_state = e["det"][letter]
+===
+EL alias removed
+---
+COUNTRY_ALIASES = {"EL": "GR"}
+---
+COUNTRY_ALIASES = {}
+===
+home state not implicitly covered
+---
+                if facts["member_state"] == e["home_state"] or facts["member_state"] in e["countries"]:
+---
+                if facts["member_state"] in e["countries"]:
+===
+unrecognised country treated as NO
+---
+                elif e["countries_unrecognised"]:
+                    place = "AMBIGUOUS"
+---
+                elif False:
+                    place = "AMBIGUOUS"
+===
+withdrawal date inclusive broken
+---
+                status = "WITHDRAWN" if end <= today_iso else "ACTIVE"
+---
+                status = "WITHDRAWN" if end < "0000" else "ACTIVE"
+===
+unparseable end date treated as active
+---
+            elif end == "":
+                status = "UNKNOWN"
+---
+            elif end == "":
+                status = "ACTIVE"
+===
+unknown-status row can grant
+---
+                if e["status"] == "UNKNOWN" and row_state == "YES":
+                    row_state = "AMBIGUOUS"
+---
+                if False:
+                    row_state = "AMBIGUOUS"
+===
+warning list ignored
+---
+            findings.append(("WARNING_LISTED", f"esma_warning_list:{w['matched_on']}"))
+---
+            pass
+===
+warning list unavailable ignored
+---
+        findings.append(("UNVERIFIED", f"warning_list_unavailable:{facts['warning_list_http']}"))
+---
+        pass
+===
+retired LEI accepted
+---
+LEI_CURRENT_STATUSES = ("ISSUED", "LAPSED", "PENDING_TRANSFER", "PENDING_ARCHIVAL")
+---
+LEI_CURRENT_STATUSES = ("ISSUED", "LAPSED", "PENDING_TRANSFER", "PENDING_ARCHIVAL", "RETIRED")
+===
+inactive entity accepted
+---
+    elif g["registration_status"] not in LEI_CURRENT_STATUSES or g["entity_status"] != "ACTIVE":
+---
+    elif g["registration_status"] not in LEI_CURRENT_STATUSES:
+===
+gleif 404 ignored
+---
+    if g["http"] == 404:
+        findings.append(("UNVERIFIED", "lei_unknown_to_gleif"))
+---
+    if g["http"] == 404:
+        pass
+===
+website mismatch ignored
+---
+    if facts["website_listed"] is False:
+        findings.append(("UNVERIFIED", "website_not_in_register"))
+---
+    if False:
+        findings.append(("UNVERIFIED", "website_not_in_register"))
+===
+website subdomain check loosened to substring
+---
+    return candidate == listed or candidate.endswith("." + listed)
+---
+    return listed in candidate or candidate in listed
+===
+register typo scheme not tolerated
+---
+    token = re.sub(r"^[a-z][a-z0-9+-]*(?::|\.)//", "", text.strip().lower())
+---
+    token = re.sub(r"^[a-z][a-z0-9+-]*://", "", text.strip().lower())
+===
+restriction grounding removed
+---
+    return "RESTRICTED" if _grounded(reading["evidence"], comment) else "UNGROUNDED"
+---
+    return "RESTRICTED"
+===
+ungrounded restriction ignored
+---
+            elif state == "UNGROUNDED":
+                findings.append(("UNVERIFIED", f"restriction_unquoted:row_{e['row']}"))
+---
+            elif state == "UNGROUNDED":
+                pass
+===
+malformed LLM true-ish accepted
+---
+            "services": {letter: services.get(letter) is True for letter in letters},
+---
+            "services": {letter: bool(services.get(letter)) for letter in letters},
+===
+d pattern backtracking bug reintroduced
+---
+    "d": r"for other crypto|crypto-assets? for other|between crypto-assets?\b(?! and fiat)",
+---
+    "d": r"for other crypto|crypto-assets? for other|between crypto-assets?(?! and fiat)",
+===
+letters ignored (description only)
+---
+        if not lettered:
+            out[letter] = "YES" if letter in described else "NO"
+---
+        if True:
+            out[letter] = "YES" if letter in described else "NO"
+===
+reshaped register read anyway
+---
+    if any(col not in index for col in required):
+        return [False, index, []]
+---
+    if False:
+        return [False, index, []]
+===
+validator skips facts comparison
+---
+            if leader.get("facts") != my_facts:
+                return False
+---
+            if leader.get("facts") is None:
+                return False
+===
+validator ignores service disagreement
+---
+                if theirs.get("services") != own["services"]:
+                    return False
+---
+                if theirs.get("services") is None:
+                    return False
+===
+validator ignores restriction disagreement
+---
+                if theirs.get("restricts") is not own["restricts"]:
+                    return False
+---
+                if theirs.get("restricts") is None:
+                    return False
+===
+validator skips quote check
+---
+                    if _grounded(theirs.get("evidence"), comment) != _grounded(own["evidence"], comment):
+                        return False
+---
+                    if False:
+                        return False
+===
+validator accepts llm output when not needed
+---
+            if not my_facts["llm_needed"]:
+                return leader["llm"] == []
+---
+            if not my_facts["llm_needed"]:
+                return True
+===
+validator ignores row alignment
+---
+                if not isinstance(theirs, dict) or theirs.get("row") != own["row"]:
+                    return False
+---
+                if not isinstance(theirs, dict):
+                    return False
+===
+LEI checksum not enforced
+---
+        _require(_lei_checksum_ok(normalized_lei), "lei must be a valid 20-character ISO 17442 LEI (checksum failed)")
+---
+        _require(len(normalized_lei) == 20, "lei must be 20 chars")
+===
+future-dated update counted
+---
+            if register_as_of < last <= today_iso:
+---
+            if register_as_of < last:
+===
+severity order wrong (UNVERIFIED hides NOT_AUTHORISED)
+---
+SEVERITY = ("WARNING_LISTED", "NOT_LISTED", "WITHDRAWN", "NOT_AUTHORISED", "UNVERIFIED",
+---
+SEVERITY = ("WARNING_LISTED", "NOT_LISTED", "WITHDRAWN", "UNVERIFIED", "NOT_AUTHORISED",
+===
+truncation not flagged
+---
+    if facts["entries_matched"] > len(entries):
+---
+    if False:
+===
+GLEIF record id not checked
+---
+    elif g["lei"] != facts["lei"]:
+---
+    elif False:
+===
+map covers only one state
+---
+    for state in STATES:
+        verdict, reasons, _coverage, _evidence = _decide(dict(facts, member_state=state), llm)
+---
+    for state in STATES[:1]:
+        verdict, reasons, _coverage, _evidence = _decide(dict(facts, member_state=state), llm)
+===
+every state gets the first state's verdict
+---
+        verdict, reasons, _coverage, _evidence = _decide(dict(facts, member_state=state), llm)
+---
+        verdict, reasons, _coverage, _evidence = _decide(dict(facts, member_state=STATES[0]), llm)
+===
+restriction evidence dropped from the snapshot
+---
+    return _decide(dict(facts, member_state=STATES[0]), llm)[3]
+---
+    return ""
+===
+entries digest depends on row numbers
+---
+    keys = ("name", "commercial_name",
+---
+    keys = ("row", "name", "commercial_name",
+===
+entries digest ignores the regulator comment
+---
+            "countries", "countries_unrecognised", "services_text", "comment")
+---
+            "countries", "countries_unrecognised", "services_text")
+===
+entries digest ignores end dates and status
+---
+    keys = ("name", "commercial_name", "authority", "home_state", "authorised_on", "end_date", "status",
+---
+    keys = ("name", "commercial_name", "authority", "home_state", "authorised_on",
+===
+entries digest ignores passport lists
+---
+            "countries", "countries_unrecognised", "services_text", "comment")
+---
+            "countries_unrecognised", "services_text", "comment")
+===
+diff counts every authorised state as gained
+---
+    gained = [s for s in STATES if before[s]["verdict"] != "AUTHORISED" and after[s]["verdict"] == "AUTHORISED"]
+---
+    gained = [s for s in STATES if after[s]["verdict"] == "AUTHORISED"]
+===
+diff counts every non-authorised state as lost
+---
+    lost = [s for s in STATES if before[s]["verdict"] == "AUTHORISED" and after[s]["verdict"] != "AUTHORISED"]
+---
+    lost = [s for s in STATES if after[s]["verdict"] != "AUTHORISED"]
+===
+diff lists gains and losses again under changed
+---
+               if before[s]["verdict"] != after[s]["verdict"] and s not in gained and s not in lost}
+---
+               if before[s]["verdict"] != after[s]["verdict"]}
+===
+diff ignores a changed register date
+---
+        "register_as_of": [previous["register_as_of"], current["register_as_of"]],
+---
+        "register_as_of": [current["register_as_of"], current["register_as_of"]],
+===
+every snapshot is a baseline
+---
+        has_previous = stored.snapshot_count > 0
+---
+        has_previous = False
+===
+register date not recorded
+---
+        record.register_as_of = facts["register_as_of"]
+---
+        record.register_as_of = ""
+===
+history chain not recorded
+---
+        record.previous_id = stored.latest_id if has_previous else u32(0)
+---
+        record.previous_id = u32(0)
+===
+history skips by position instead of following the chain
+---
+            i = int(s.previous_id)
+---
+            i = i - 1
+===
+coverage ignores the verdict
+---
+        if verdict != "AUTHORISED":
+            reason = "VERDICT_" + verdict
+---
+        if False:
+            reason = "VERDICT_" + verdict
+===
+coverage trusts a register with no date
+---
+        elif s.register_as_of == "":
+            reason = "REGISTER_DATE_UNKNOWN"
+---
+        elif False:
+            reason = "REGISTER_DATE_UNKNOWN"
+===
+coverage ignores a stale register
+---
+        elif not 0 <= register_age_days <= max_register_age_days:
+            reason = "STALE_REGISTER"
+---
+        elif False:
+            reason = "STALE_REGISTER"
+===
+coverage ignores a stale check
+---
+        elif not 0 <= age <= max_age_seconds:
+            reason = "STALE_CHECK"
+---
+        elif False:
+            reason = "STALE_CHECK"
+===
+register age off by one
+---
+        elif not 0 <= register_age_days <= max_register_age_days:
+---
+        elif not 0 <= register_age_days < max_register_age_days:
+===
+covers always true
+---
+        return self.get_coverage(firm_id, state, max_age_seconds, max_register_age_days)["covered"]
+---
+        return True
+===
+coverage accepts a non-EEA state
+---
+        _require(code in STATES, "state must be an EU/EEA country code, e.g. DE")
+---
+        _require(True, "state must be an EU/EEA country code, e.g. DE")
+===
+coverage does not read EL as Greece
+---
+        code = _country(state)
+        _require(code in STATES, "state must be an EU/EEA country code, e.g. DE")
+---
+        code = state.strip().upper()
+        _require(code in STATES, "state must be an EU/EEA country code, e.g. DE")
+===
+firm registration accepts a bad LEI
+---
+        _require(_lei_checksum_ok(normalized_lei), "lei must be a valid 20-character ISO 17442 LEI (checksum failed)")
+        letters = _parse_services(services)
+        host = ""
+---
+        _require(len(normalized_lei) == 20, "lei must be a valid 20-character ISO 17442 LEI (checksum failed)")
+        letters = _parse_services(services)
+        host = ""
+===
+firm registered twice
+---
+        _require(firm_id not in self.firms, "firm_id already registered")
+---
+        _require(True, "firm_id already registered")
+===
+snapshot validator skips the facts comparison
+---
+            if leader.get("facts") != my_facts:
+                return False
+            if not my_facts["llm_needed"]:
+                return leader["llm"] == []
+---
+            if leader.get("facts") is None:
+                return False
+            if not my_facts["llm_needed"]:
+                return leader["llm"] == []

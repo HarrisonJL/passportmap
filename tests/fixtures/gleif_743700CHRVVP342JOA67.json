@@ -1,0 +1,134 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "743700CHRVVP342JOA67",
+  "attributes": {
+   "lei": "743700CHRVVP342JOA67",
+   "entity": {
+    "legalName": {
+     "name": "NorthCrypto Oy",
+     "language": "fi"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "fi",
+     "addressLines": [
+      "Kristiinankatu 1 B 25",
+      "20100 TURKU"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "TURKU",
+     "region": null,
+     "country": "FI",
+     "postalCode": "FI-20100"
+    },
+    "headquartersAddress": {
+     "language": "fi",
+     "addressLines": [
+      "Kristiinankatu 1 B 25",
+      "20100 TURKU"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "TURKU",
+     "region": null,
+     "country": "FI",
+     "postalCode": "FI-20100"
+    },
+    "registeredAt": {
+     "id": "RA000188",
+     "other": null
+    },
+    "registeredAs": "2918254-9",
+    "jurisdiction": "FI",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "DKUW",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2018-05-29T21:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": []
+   },
+   "registration": {
+    "initialRegistrationDate": "2025-01-16T22:00:00Z",
+    "lastUpdateDate": "2026-01-17T13:00:16Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-01-17T10:00:00Z",
+    "managingLou": "743700OO8O2N3TQKJC81",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000188",
+     "other": null
+    },
+    "validatedAs": "2918254-9",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": null,
+   "ocid": null,
+   "qcc": "QFI477WBVC",
+   "gem": null,
+   "spglobal": [
+    "1890444608"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "relationship-record": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/direct-parent-relationship",
+     "lei-record": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/direct-parent"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "relationship-record": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/ultimate-parent-relationship",
+     "lei-record": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67/ultimate-parent"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/743700CHRVVP342JOA67"
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "894500ZVOL3A9LO8LN34",
+  "attributes": {
+   "lei": "894500ZVOL3A9LO8LN34",
+   "entity": {
+    "legalName": {
+     "name": "Decubate B.V.",
+     "language": "nl"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "nl",
+     "addressLines": [
+      "Boerhaavelaan 40"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Zoetermeer",
+     "region": null,
+     "country": "NL",
+     "postalCode": "2713 HX"
+    },
+    "headquartersAddress": {
+     "language": "nl",
+     "addressLines": [
+      "Boerhaavelaan 40"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Zoetermeer",
+     "region": null,
+     "country": "NL",
+     "postalCode": "2713 HX"
+    },
+    "registeredAt": {
+     "id": "RA000463",
+     "other": null
+    },
+    "registeredAs": "82541442",
+    "jurisdiction": "NL",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "54M6",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2021-04-14T21:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": []
+   },
+   "registration": {
+    "initialRegistrationDate": "2024-08-27T15:39:04Z",
+    "lastUpdateDate": "2026-06-30T10:50:06Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-08-26T22:00:00Z",
+    "managingLou": "529900F6BNUR3RJ2WH29",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000463",
+     "other": null
+    },
+    "validatedAs": "82541442",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": null,
+   "ocid": null,
+   "qcc": "QNLD69KXNK",
+   "gem": null,
+   "spglobal": [
+    "1771605474"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/894500ZVOL3A9LO8LN34/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/894500ZVOL3A9LO8LN34/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/894500ZVOL3A9LO8LN34/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/894500ZVOL3A9LO8LN34/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/894500ZVOL3A9LO8LN34/ultimate-parent-reporting-exception"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/894500ZVOL3A9LO8LN34"
+  }
+ }
+}

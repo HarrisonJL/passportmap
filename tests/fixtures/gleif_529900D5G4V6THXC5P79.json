@@ -1,0 +1,183 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "529900D5G4V6THXC5P79",
+  "attributes": {
+   "lei": "529900D5G4V6THXC5P79",
+   "entity": {
+    "legalName": {
+     "name": "HRVATSKA PO\u0160TANSKA BANKA, dioni\u010dko dru\u0161tvo",
+     "language": "hr"
+    },
+    "otherNames": [
+     {
+      "name": "HPB d.d.",
+      "language": "hr",
+      "type": "TRADING_OR_OPERATING_NAME"
+     }
+    ],
+    "transliteratedOtherNames": [
+     {
+      "name": "HRVATSKA POSTANSKA BANKA, dionicko drustvo",
+      "language": "hr",
+      "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME"
+     }
+    ],
+    "legalAddress": {
+     "language": "hr",
+     "addressLines": [
+      "Juri\u0161i\u0107eva ulica 4"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Zagreb",
+     "region": "HR-21",
+     "country": "HR",
+     "postalCode": "10000"
+    },
+    "headquartersAddress": {
+     "language": "hr",
+     "addressLines": [
+      "Juri\u0161i\u0107eva ulica 4"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Zagreb",
+     "region": "HR-21",
+     "country": "HR",
+     "postalCode": "10000"
+    },
+    "registeredAt": {
+     "id": "RA000156",
+     "other": null
+    },
+    "registeredAs": "080010698",
+    "jurisdiction": "HR",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "LUMA",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "1991-10-22T22:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": [
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "OTHER_OFFICIAL_DOCUMENTS",
+        "validationReference": "https://sudreg.pravosudje.hr/registar/f?p=150:28:0::NO:28:P28_SBT_MBS:080010698",
+        "effectiveDate": "2023-01-03T23:00:00Z",
+        "recordedDate": "2023-01-04T14:07:01Z",
+        "type": "CHANGE_HQ_ADDRESS",
+        "status": "COMPLETED"
+       }
+      ]
+     },
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "OTHER_OFFICIAL_DOCUMENTS",
+        "validationReference": "https://sudreg.pravosudje.hr/registar/f?p=150:28:0::NO:28:P28_SBT_MBS:080010698",
+        "effectiveDate": "2023-01-03T23:00:00Z",
+        "recordedDate": "2023-01-04T14:06:35Z",
+        "type": "CHANGE_LEGAL_ADDRESS",
+        "status": "COMPLETED"
+       }
+      ]
+     }
+    ]
+   },
+   "registration": {
+    "initialRegistrationDate": "2014-02-03T13:09:00Z",
+    "lastUpdateDate": "2026-06-30T20:41:10Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-02-04T23:59:00Z",
+    "managingLou": "747800R0J5YBJED3N877",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000156",
+     "other": null
+    },
+    "validatedAs": "080010698",
+    "otherValidationAuthorities": []
+   },
+   "bic": [
+    "HPBZHR2XXXX"
+   ],
+   "mic": null,
+   "ocid": null,
+   "qcc": "QHRR5H610H",
+   "gem": "E100001015132",
+   "spglobal": [
+    "21860298"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/ultimate-parent-reporting-exception"
+    }
+   },
+   "direct-children": {
+    "links": {
+     "relationship-records": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/direct-child-relationships",
+     "related": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/direct-children"
+    }
+   },
+   "ultimate-children": {
+    "links": {
+     "relationship-records": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/ultimate-child-relationships",
+     "related": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79/ultimate-children"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/529900D5G4V6THXC5P79"
+  }
+ }
+}

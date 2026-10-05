@@ -1,0 +1,163 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "213800GIFQMSV7HROS23",
+  "attributes": {
+   "lei": "213800GIFQMSV7HROS23",
+   "entity": {
+    "legalName": {
+     "name": "ETORO (EUROPE) LIMITED",
+     "language": "en"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "el",
+     "addressLines": [
+      "\u0391\u03c1\u03c7. \u039c\u03b1\u03ba\u03b1\u03c1\u03af\u03bf\u03c5 \u0399\u0399\u0399, 199",
+      "NEOCLEOUS TOWER, \u038c\u03c1\u03bf\u03c6\u03bf\u03c2 9",
+      "\u0393\u03b5\u03c1\u03bc\u03b1\u03c3\u03cc\u03b3\u03b5\u03b9\u03b1"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "\u039b\u03b5\u03bc\u03b5\u03c3\u03cc\u03c2",
+     "region": "CY-02",
+     "country": "CY",
+     "postalCode": "3030"
+    },
+    "headquartersAddress": {
+     "language": "el",
+     "addressLines": [
+      "\u0391\u03c1\u03c7. \u039c\u03b1\u03ba\u03b1\u03c1\u03af\u03bf\u03c5 \u0399\u0399\u0399, 199",
+      "NEOCLEOUS TOWER, \u038c\u03c1\u03bf\u03c6\u03bf\u03c2 9",
+      "\u0393\u03b5\u03c1\u03bc\u03b1\u03c3\u03cc\u03b3\u03b5\u03b9\u03b1"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "\u039b\u03b5\u03bc\u03b5\u03c3\u03cc\u03c2",
+     "region": "CY-02",
+     "country": "CY",
+     "postalCode": "3030"
+    },
+    "registeredAt": {
+     "id": "RA000161",
+     "other": null
+    },
+    "registeredAs": "\u0397\u0395 200585",
+    "jurisdiction": "CY",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "K9L6",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2007-05-26T00:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": [
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "SUPPORTING_DOCUMENTS",
+        "effectiveDate": "2026-05-26T00:00:00Z",
+        "recordedDate": "2026-06-09T16:11:07Z",
+        "type": "CHANGE_LEGAL_ADDRESS",
+        "status": "COMPLETED"
+       }
+      ]
+     },
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "SUPPORTING_DOCUMENTS",
+        "effectiveDate": "2026-05-26T00:00:00Z",
+        "recordedDate": "2026-06-09T16:11:07Z",
+        "type": "CHANGE_HQ_ADDRESS",
+        "status": "COMPLETED"
+       }
+      ]
+     }
+    ]
+   },
+   "registration": {
+    "initialRegistrationDate": "2014-02-03T00:00:00Z",
+    "lastUpdateDate": "2026-06-09T16:11:07Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-04-22T12:31:59Z",
+    "managingLou": "529900T8BM49AURSDO55",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000161",
+     "other": null
+    },
+    "validatedAs": "\u0397\u0395 200585",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": [
+    "ETOR"
+   ],
+   "ocid": "cy/HE200585",
+   "qcc": "QCYJYY5VG1",
+   "gem": null,
+   "spglobal": [
+    "52341425"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "relationship-record": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/direct-parent-relationship",
+     "lei-record": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/direct-parent"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "relationship-record": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/ultimate-parent-relationship",
+     "lei-record": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23/ultimate-parent"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/213800GIFQMSV7HROS23"
+  }
+ }
+}

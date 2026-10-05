@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "984500F14CA4571AAC11",
+  "attributes": {
+   "lei": "984500F14CA4571AAC11",
+   "entity": {
+    "legalName": {
+     "name": "Coinbase Luxembourg S.A.",
+     "language": "fr"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "fr",
+     "addressLines": [
+      "5 Place De La Gare"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Luxembourg",
+     "region": "LU-LU",
+     "country": "LU",
+     "postalCode": "1616"
+    },
+    "headquartersAddress": {
+     "language": "fr",
+     "addressLines": [
+      "5 Place De La Gare"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Luxembourg",
+     "region": "LU-LU",
+     "country": "LU",
+     "postalCode": "1616"
+    },
+    "registeredAt": {
+     "id": "RA000432",
+     "other": null
+    },
+    "registeredAs": "B292147",
+    "jurisdiction": "LU",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "5GGB",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2025-01-10T00:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": []
+   },
+   "registration": {
+    "initialRegistrationDate": "2025-03-21T10:49:58Z",
+    "lastUpdateDate": "2026-03-09T13:44:33Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-03-21T10:50:00Z",
+    "managingLou": "529900T8BM49AURSDO55",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000432",
+     "other": null
+    },
+    "validatedAs": "B292147",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": null,
+   "ocid": null,
+   "qcc": "QLU7CG9UNT",
+   "gem": null,
+   "spglobal": [
+    "1936161807"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/984500F14CA4571AAC11/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/984500F14CA4571AAC11/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/984500F14CA4571AAC11/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/984500F14CA4571AAC11/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/984500F14CA4571AAC11/ultimate-parent-reporting-exception"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/984500F14CA4571AAC11"
+  }
+ }
+}

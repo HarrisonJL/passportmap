@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "5299005I4LYIFW7GKB54",
+  "attributes": {
+   "lei": "5299005I4LYIFW7GKB54",
+   "entity": {
+    "legalName": {
+     "name": "AMINA (Austria) AG",
+     "language": "de"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "de",
+     "addressLines": [
+      "Seestrasse 6/13"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Bregenz",
+     "region": "AT-8",
+     "country": "AT",
+     "postalCode": "6900"
+    },
+    "headquartersAddress": {
+     "language": "de",
+     "addressLines": [
+      "Seestrasse 6/13"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Bregenz",
+     "region": "AT-8",
+     "country": "AT",
+     "postalCode": "6900"
+    },
+    "registeredAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "registeredAs": "631729p",
+    "jurisdiction": "AT",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "EQOV",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2024-06-30T22:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": []
+   },
+   "registration": {
+    "initialRegistrationDate": "2025-01-14T16:28:19Z",
+    "lastUpdateDate": "2025-11-17T11:07:04Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-01-14T16:28:19Z",
+    "managingLou": "5299000J2N45DDNE4Y28",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "validatedAs": "631729p",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": null,
+   "ocid": null,
+   "qcc": "QAT8BFXFTE",
+   "gem": null,
+   "spglobal": [
+    "1917051757"
+   ],
+   "conformityFlag": "CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54/ultimate-parent-reporting-exception"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/5299005I4LYIFW7GKB54"
+  }
+ }
+}

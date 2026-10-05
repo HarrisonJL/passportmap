@@ -1,0 +1,155 @@
+{
+ "meta": {
+  "goldenCopy": {
+   "publishDate": "2026-09-30T00:00:00Z"
+  }
+ },
+ "data": {
+  "type": "lei-records",
+  "id": "5299005V5GBSN2A4C303",
+  "attributes": {
+   "lei": "5299005V5GBSN2A4C303",
+   "entity": {
+    "legalName": {
+     "name": "Bybit EU GmbH",
+     "language": "de"
+    },
+    "otherNames": [],
+    "transliteratedOtherNames": [],
+    "legalAddress": {
+     "language": "de",
+     "addressLines": [
+      "Donau-City-Stra\u00dfe 7"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Wien",
+     "region": "AT-9",
+     "country": "AT",
+     "postalCode": "1220"
+    },
+    "headquartersAddress": {
+     "language": "de",
+     "addressLines": [
+      "Donau-City-Stra\u00dfe 7"
+     ],
+     "addressNumber": null,
+     "addressNumberWithinBuilding": null,
+     "mailRouting": null,
+     "city": "Wien",
+     "region": "AT-9",
+     "country": "AT",
+     "postalCode": "1220"
+    },
+    "registeredAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "registeredAs": "636180i",
+    "jurisdiction": "AT",
+    "category": "GENERAL",
+    "legalForm": {
+     "id": "AXSB",
+     "other": null
+    },
+    "associatedEntity": {
+     "lei": null,
+     "name": null
+    },
+    "status": "ACTIVE",
+    "expiration": {
+     "date": null,
+     "reason": null
+    },
+    "successorEntity": {
+     "lei": null,
+     "name": null
+    },
+    "successorEntities": [],
+    "creationDate": "2024-06-13T22:00:00Z",
+    "subCategory": null,
+    "otherAddresses": [],
+    "eventGroups": [
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "SUPPORTING_DOCUMENTS",
+        "effectiveDate": "2025-11-28T23:00:00Z",
+        "recordedDate": "2025-11-29T11:04:06Z",
+        "type": "CHANGE_HQ_ADDRESS",
+        "status": "COMPLETED"
+       }
+      ]
+     },
+     {
+      "groupType": "STANDALONE",
+      "events": [
+       {
+        "validationDocuments": "SUPPORTING_DOCUMENTS",
+        "effectiveDate": "2025-11-28T23:00:00Z",
+        "recordedDate": "2025-11-29T11:04:06Z",
+        "type": "CHANGE_LEGAL_ADDRESS",
+        "status": "COMPLETED"
+       }
+      ]
+     }
+    ]
+   },
+   "registration": {
+    "initialRegistrationDate": "2025-01-27T09:44:53Z",
+    "lastUpdateDate": "2025-11-29T11:04:06Z",
+    "status": "ISSUED",
+    "nextRenewalDate": "2027-01-27T09:44:53Z",
+    "managingLou": "5299000J2N45DDNE4Y28",
+    "corroborationLevel": "FULLY_CORROBORATED",
+    "validatedAt": {
+     "id": "RA000017",
+     "other": null
+    },
+    "validatedAs": "636180i",
+    "otherValidationAuthorities": []
+   },
+   "bic": null,
+   "mic": null,
+   "ocid": null,
+   "qcc": "QATF23GE31",
+   "gem": null,
+   "spglobal": [
+    "1929176761"
+   ],
+   "conformityFlag": "NON_CONFORMING"
+  },
+  "relationships": {
+   "managing-lou": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303/managing-lou"
+    }
+   },
+   "lei-issuer": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303/lei-issuer"
+    }
+   },
+   "field-modifications": {
+    "links": {
+     "related": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303/field-modifications"
+    }
+   },
+   "direct-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303/direct-parent-reporting-exception"
+    }
+   },
+   "ultimate-parent": {
+    "links": {
+     "reporting-exception": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303/ultimate-parent-reporting-exception"
+    }
+   }
+  },
+  "links": {
+   "self": "https://api.gleif.org/api/v1/lei-records/5299005V5GBSN2A4C303"
+  }
+ }
+}

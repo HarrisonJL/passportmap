@@ -1,0 +1,5880 @@
+{
+ "cases": {
+  "SYNTHETIC Germany dropped from the passport list": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "SYNTHETIC eleven register rows for one LEI": {
+   "AT": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "register_entries_truncated:11"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "register_entries_truncated:11"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "SYNTHETIC reshaped register (a column renamed)": {
+   "AT": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NL": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "register_format_changed"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "SYNTHETIC ronin: crypto-for-fiat alone is not crypto-for-crypto": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:d"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "SYNTHETIC unparseable end date": {
+   "AT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "SYNTHETIC withdrawal scheduled for 31/12/2026": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "SYNTHETIC withdrawn on 01/09/2026": {
+   "AT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "BE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "BG": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "CY": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "CZ": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "DE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "DK": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "EE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "ES": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "FI": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "FR": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "GR": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "HR": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "HU": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "IE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "IS": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "IT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LI": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LU": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LV": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "MT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "NL": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "NO": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "PL": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "PT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "RO": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "SE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "SI": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "SK": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   }
+  },
+  "amina custody (Slovenia as SL)": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "bitpanda under the retired LEI": {
+   "AT": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NL": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "lei_not_current:RETIRED/INACTIVE:successor_98450086582EV2FFC109"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "blue emi restricted": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "AUTHORISED_RESTRICTED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_269"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "bybit LEI from a look-alike site": {
+   "AT": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "website_not_in_register"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "website_not_in_register"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "bybit LEI from an ESMA-warned site": {
+   "AT": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "BE": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "BG": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "CY": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "CZ": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "DE": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "DK": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "EE": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "ES": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "FI": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "FR": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "GR": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "HR": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "HU": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "IE": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "IS": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "IT": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "LI": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "LT": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "LU": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "LV": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "MT": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "NL": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "NO": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "PL": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "PT": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "RO": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "SE": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "SI": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   },
+   "SK": {
+    "reasons": [
+     "esma_warning_list:website:bank-bit.com",
+     "website_not_in_register"
+    ],
+    "verdict": "WARNING_LISTED"
+   }
+  },
+  "bybit LLM claims a service the text lacks": {
+   "AT": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "service_ambiguous:b"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "bybit custody+fiat with website": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "service_not_covered:c"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "bybit trading platform (LLM says absent)": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "coinbase luxembourg": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "decubate withdrawn": {
+   "AT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "BE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "BG": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "CY": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "CZ": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "DE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "DK": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "EE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "ES": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "FI": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "FR": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "GR": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "HR": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "HU": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "IE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "IS": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "IT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LI": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LU": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "LV": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "MT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "NL": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "NO": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "PL": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "PT": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "RO": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "SE": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "SI": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   },
+   "SK": {
+    "reasons": [
+     "authorisation_withdrawn"
+    ],
+    "verdict": "WITHDRAWN"
+   }
+  },
+  "etoro custody (Greece as EL)": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "gleif ANNULLED with entity ACTIVE": {
+   "AT": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "lei_not_current:ANNULLED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "gleif ISSUED but entity INACTIVE": {
+   "AT": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "lei_not_current:ISSUED/INACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "gleif LAPSED but entity ACTIVE": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "gleif RETIRED with entity ACTIVE": {
+   "AT": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "lei_not_current:RETIRED/ACTIVE"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "gleif record for a different LEI": {
+   "AT": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "gleif_record_mismatch"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "gleif_record_mismatch"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "gleif unknown": {
+   "AT": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "lei_unknown_to_gleif"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "hpb restricted": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "AUTHORISED_RESTRICTED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:a",
+     "regulator_comment_restricts:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "hpb restriction without a real quote": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:a",
+     "restriction_unquoted:row_229"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "malformed LLM answer can only withhold": {
+   "AT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "service_ambiguous:a"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "northcrypto administrative comment": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:a"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "okx trading platform": {
+   "AT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "BG": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CY": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "DK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "EE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "ES": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "FR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "GR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HR": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "HU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IS": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "IT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LU": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "LV": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "MT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "NO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PL": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "PT": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "RO": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SE": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SI": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   },
+   "SK": {
+    "reasons": [],
+    "verdict": "AUTHORISED"
+   }
+  },
+  "register unreachable": {
+   "AT": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NL": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "register_unavailable:503"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  },
+  "ronin: prose-only entry, services b c d": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:b"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "scheich portfolio management (letters shifted)": {
+   "AT": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BE": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "BG": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CY": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "CZ": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "DE": {
+    "reasons": [
+     "service_ambiguous:i"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "EE": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "ES": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FI": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "FR": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "GR": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HR": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "HU": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IE": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IS": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "IT": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LI": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LT": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LU": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "LV": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NO": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PL": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "PT": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "RO": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SE": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SI": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "SK": {
+    "reasons": [
+     "service_not_covered:i"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   }
+  },
+  "tesco not a CASP": {
+   "AT": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "BE": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "BG": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "CY": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "CZ": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "DE": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "DK": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "EE": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "ES": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "FI": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "FR": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "GR": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "HR": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "HU": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "IE": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "IS": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "IT": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "LI": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "LT": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "LU": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "LV": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "MT": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "NL": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "NO": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "PL": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "PT": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "RO": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "SE": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "SI": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   },
+   "SK": {
+    "reasons": [
+     "lei_not_in_register"
+    ],
+    "verdict": "NOT_LISTED"
+   }
+  },
+  "warning list unavailable": {
+   "AT": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BE": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "BG": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CY": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "CZ": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DE": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "DK": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "EE": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "ES": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FI": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "FR": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "GR": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HR": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "HU": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IE": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IS": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "IT": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LI": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LT": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LU": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "LV": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "MT": {
+    "reasons": [
+     "service_not_covered:a",
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "NOT_AUTHORISED"
+   },
+   "NL": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "NO": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PL": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "PT": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "RO": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SE": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SI": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   },
+   "SK": {
+    "reasons": [
+     "warning_list_unavailable:500"
+    ],
+    "verdict": "UNVERIFIED"
+   }
+  }
+ },
+ "generated_by": "tests/reference/generate_v1_expected.py",
+ "now": "2026-09-30T12:00:00Z",
+ "reference_sha256": "4221b8d214deeb25a9c4097efc2acc6d06d68a2a75d38c40b27b66205127f6d2",
+ "register_sha256": "8fa470c6d5a110d55b3ed5f9f711d36473190e154d690bf44f0e87418aa03e82",
+ "states": [
+  "AT",
+  "BE",
+  "BG",
+  "HR",
+  "CY",
+  "CZ",
+  "DK",
+  "EE",
+  "FI",
+  "FR",
+  "DE",
+  "GR",
+  "HU",
+  "IE",
+  "IT",
+  "LV",
+  "LT",
+  "LU",
+  "MT",
+  "NL",
+  "PL",
+  "PT",
+  "RO",
+  "SK",
+  "SI",
+  "ES",
+  "SE",
+  "IS",
+  "LI",
+  "NO"
+ ]
+}
