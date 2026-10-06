@@ -2,13 +2,12 @@
   "name": "passportmap-studio-next",
   "version": "1.0.0",
   "private": true,
-  "description": "Deployment, live-proof and snapshot tooling for PassportMap and ListingGate on GenLayer Studio Next (chain 61997). Pinned to genlayer-js v2 (pre-release) - Studio Next requires its explicit-fees API.",
+  "description": "Deployment and live-proof tooling for PassportMap and ListingGate on GenLayer Studio Next (chain 61997). Pinned to genlayer-js v2 (pre-release) - Studio Next requires its explicit-fees API.",
   "type": "commonjs",
   "scripts": {
     "check-schema": "tsx check_schema.ts",
     "deploy": "tsx deploy.ts",
     "prove": "tsx prove.ts",
-    "snapshot": "tsx snapshot.ts",
     "verify-code": "tsx verify_code.ts"
   },
   "dependencies": {

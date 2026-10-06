@@ -9,7 +9,7 @@
 | ListingGate (consumer) | [`0x75e6846612A26a4D76BE0766b5ED7b8141c18D68`](https://explorer-studio-dev.genlayer.com/address/0x75e6846612A26a4D76BE0766b5ED7b8141c18D68) |
 | Live proof | [CONTRACT.md](CONTRACT.md): ten real firms, nine maps of 30 states each, a diff chain, ten gate calls, every transaction unanimous |
 | Tests | 97 Direct Mode tests; every state's verdict checked against LicenceCheck v1 on 34 cases (1,020 verdicts); 59/59 safety mutations killed |
-| Frontend | [`frontend/index.html`](frontend/index.html): a firms × states heat map, a tile map per firm, the diff history and the gate's ledger |
+| Live app | [`web/`](web): a React app that reads the live contracts (firms × states heat map, a tile map per firm, diff history, the gate's ledger) and sends real register / snapshot transactions (see "Frontend") |
 
 ## What this builds on, and what it adds
 
@@ -99,7 +99,20 @@ python3 scripts/mutation_check.py             # 59/59 mutations killed
 
 ## Frontend
 
-`frontend/index.html` is a static page (no build step). It shows a **heat map of every firm against all 30 states**, colour-coded by verdict; a **tile map of Europe** for the selected firm, where clicking a state shows its verdict and reasons; that firm's **snapshot history with each diff**; and the ListingGate ledger with PassportMap's reason for every refusal. It renders `frontend/map.js`, a snapshot of the live contracts written by `npm run snapshot` in `studio-next/` (it reads them through genlayer-js, paced under Studio Next's 30-requests-a-minute limit). Being a plain script, the page also works opened straight from disk. Whether the gate would accept the register's age is computed in the browser against the clock, so the page ages honestly.
+`web/` is a Vite + React + TypeScript app. It shows a **heat map of every firm against all 30 states**, colour-coded by verdict; a **tile map of Europe** for the selected firm, where choosing a state shows its verdict and reasons; that firm's **snapshot history with each diff**; a coverage checker that asks the contract itself (`get_coverage`) with limits you choose; and the ListingGate ledger. It is also a client: a visitor can register a firm and take a fresh snapshot of one, and each is a real transaction on the deployed contract.
+
+- **Accounts.** Connect a wallet (MetaMask, which the app adds the Studio Next network to), or use a temporary in-browser account and fund it from the network's faucet. The temporary key lives only in that browser and is for the testnet only.
+- **The whole transaction lifecycle is shown, not just the send.** The panel follows the transaction as the network does (pending, a leader proposing, validators committing) with each validator's vote. Only `ACCEPTED` and `FINALIZED` count as success. `CANCELED`, `UNDETERMINED` and a timeout are shown as failures, and a call the contract rejected (`FINISHED_WITH_ERROR`) is shown as a rejection with the contract's own reason (for example `website must be a hostname or URL`), never as success. The register form also checks what the contract checks (the LEI's ISO 17442 checksum, the firm id, the service letters) so a call that would be refused is not paid for.
+- **The result shown is the record that transaction created.** Before a snapshot it reads the contract's snapshot count, and afterwards shows only a snapshot at or past it, of that firm, from this sender; if it cannot find one it says so instead of showing the latest.
+- **State comes from the contract, not the page.** The countdowns (is the register still recent enough for the gate, is the check still fresh enough) are computed in the browser against the clock from the contract's own configuration, and "is this firm covered" is `get_coverage`'s answer. A load brackets its reads with the contract's counters and re-reads if a transaction landed halfway through, so the page never mixes two moments.
+- **The public RPC allows 30 requests a minute and eight concurrent executions.** Reads are paced under that (two in flight, the window kept in `localStorage` so reloads and tabs share it), a `429` is waited out rather than shown as an error, and the last good snapshot is painted at once, labelled as a past read, while the live read runs.
+
+```bash
+cd web && npm install && npm run dev      # http://localhost:5173
+npm run build                             # type-check + production build into dist/
+```
+
+One snapshot was taken from the app after the recorded live proof (CONTRACT.md): snapshot #12 of `etoro-custody`, chained to #4, from a throwaway browser account, unanimous, "no change in any state" (the register is unchanged). It is in the contract's state (`get_state`: 12 snapshots), not in `studio-next/live_proof.json`, which is the scripted run.
 
 ## Known limitations
 
@@ -122,7 +135,7 @@ contracts/listing_gate*.py               consumer contract + port
 tests/                                   Direct Mode tests, real ESMA/GLEIF fixtures, mutations.txt
 tests/reference/                         LicenceCheck v1's source, and its recorded per-state answers
 scripts/                                 port, mutation check
-studio-next/                             deploy, schema check, snapshot, live proof (prove.ts, live_proof.json), verify_code.ts
-frontend/                                static heat-map view (index.html) + data snapshot (map.js)
+studio-next/                             deploy, schema check, live proof (prove.ts, live_proof.json), verify_code.ts
+web/                                     live app (React): reads the contracts, sends register / snapshot transactions
 research/                                LicenceCheck v1's connectivity probes (why plain HTTP fetches of ESMA and GLEIF work on Studio Next)
 ```
