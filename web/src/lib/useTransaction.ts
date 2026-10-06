@@ -57,10 +57,13 @@ export function useTransaction() {
     }
   }, []);
 
+  /** Show the panel at once, before the reads a call depends on (they can wait on the RPC's rate limit). */
+  const starting = useCallback((label: string) => setState({ stage: "submitting", label }), []);
+
   /** A failure before anything was sent (a read the call depends on), shown in the same panel. */
   const fail = useCallback((label: string, e: unknown) => {
     setState({ stage: "failed", label, kind: "other", error: errorText(e) });
   }, []);
 
-  return { state, run, fail, reset: () => setState({ stage: "idle" }) };
+  return { state, run, starting, fail, reset: () => setState({ stage: "idle" }) };
 }

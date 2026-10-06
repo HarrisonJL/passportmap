@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import {
   addressLink, balanceOf, connectWallet, errorText, forgetTemporaryAccount, fundAccount, short, temporaryAccount, txLink, type Signer,
 } from "../lib/genlayer";
@@ -75,14 +75,29 @@ export function AccountPanel({ signer, onSigner }: { signer: Signer | null; onSi
   );
 }
 
-/** The live lifecycle of the current write: what the network is doing, then the bound result or the error. */
-export function TxPanel({ state, onReset, children }: { state: TxState; onReset: () => void; children?: (bound: any) => ReactNode }) {
+type TxPanelProps = { state: TxState; onReset: () => void; children?: (bound: any) => ReactNode };
+
+/**
+ * The live lifecycle of the current write. The page is long and the buttons that start a write
+ * are far from this panel, so it scrolls into view when a write begins; otherwise a click on a
+ * card halfway down the page appears to do nothing.
+ */
+export function TxPanel(props: TxPanelProps) {
+  const ref = useRef<HTMLDivElement>(null);
+  const started = props.state.stage === "submitting";
+  useEffect(() => {
+    if (started) ref.current?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }, [started]);
+  return <div ref={ref}><TxBody {...props} /></div>;
+}
+
+function TxBody({ state, onReset, children }: TxPanelProps) {
   if (state.stage === "idle") return null;
   const link = "hash" in state && state.hash ? (
     <a className="mono" href={txLink(state.hash)} target="_blank" rel="noreferrer">{state.hash.slice(0, 10)}…</a>
   ) : null;
   if (state.stage === "submitting") {
-    return <div className="panel tx"><b>{state.label}</b><div className="sm">Waiting for you to approve and sign…</div></div>;
+    return <div className="panel tx"><b>{state.label}</b><div className="sm">Preparing the transaction. A wallet will ask you to approve it; a temporary account signs on its own…</div></div>;
   }
   if (state.stage === "waiting") {
     const p = state.progress;

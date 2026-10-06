@@ -112,7 +112,7 @@ cd web && npm install && npm run dev      # http://localhost:5173
 npm run build                             # type-check + production build into dist/
 ```
 
-One snapshot was taken from the app after the recorded live proof (CONTRACT.md): snapshot #12 of `etoro-custody`, chained to #4, from a throwaway browser account, unanimous, "no change in any state" (the register is unchanged). It is in the contract's state (`get_state`: 12 snapshots), not in `studio-next/live_proof.json`, which is the scripted run.
+One snapshot was taken from the app after the recorded live proof (CONTRACT.md): snapshot #12 of `etoro-custody`, chained to #4, from a throwaway browser account, unanimous, "no change in any state" (the register is unchanged). It is in the contract's state, not in `studio-next/live_proof.json`, which is the scripted run. The counts only grow: anyone using the app adds snapshots, so `get_state` will read higher than the live-proof table.
 
 ## Known limitations
 

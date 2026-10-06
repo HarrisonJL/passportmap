@@ -136,6 +136,7 @@ export default function App() {
   async function takeSnapshot(firmId: string) {
     if (!signer) return;
     const label = `Snapshot ${firmId}`;
+    tx.starting(label);
     let before: number;
     try { before = await countBefore(); } catch (e) { return tx.fail(label, e); }
     const ok = await tx.run(signer, PM, "snapshot", [firmId], label, "that firm isn't registered.", () => boundSnapshot(before, signer, firmId));
